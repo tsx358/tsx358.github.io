@@ -34,6 +34,10 @@ body{
   color: black;
 }
 
+.light .resourcelinks{
+  color: black;
+}
+
 .topbuttons{
   width: 20%;
   padding: 1% 5% 1% 5%;
@@ -162,3 +166,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.resourcelinks{
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  
+}
+
