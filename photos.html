@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
 
 <!-- fonts -->
@@ -20,25 +22,45 @@
   
 </head>
 <body>
-    <div>   
-  <a class="topbuttons" href="index.html">Tina Xing </a>
-  <a class="topbuttons" href="index.html#about">About</a> 
-  <a class="topbuttons" href="index.html#resources" > Resources</a>
-  <a class="topbuttons" href="photos.html" > Photos</a></div>
+
+ <div>   
+  <a lang = "eng" class="topbuttons" href="index.html">Tina Xing </a>
+  <a lang = "eng" class="topbuttons" href="index.html#about">About</a> 
+  <a lang = "eng" class="topbuttons" href="index.html#resources" > Resources</a>
+  <a lang = "eng" class="topbuttons" href="photos.html" > Photos</a></div>
+
+    <a lang = "ch" class="topbuttons" href="index.html">Tina Xing </a>
+  <a lang = "ch" class="topbuttons" href="index.html#about">介绍</a> 
+  <a lang = "ch" class="topbuttons" href="index.html#resources" > 资料</a>
+  <a lang = "ch" class="topbuttons" href="photos.html" > 相片</a></div>
 <!-- <a class="topbuttons" href="contact.html" > Contact</a> -->
 </div>
   <div class="col1">
       <a href="index.html"><img class= "pfp" src= "pfp.png" height=70% width=70% > </a>
-    <h1 class="name">
+    <h1 lang="eng" class="name">
       Tina Xing
     </h1>
-    <p class="smalltext"> Click me for color change! </p>
+    <h1 lang="ch" class="name">
+      邢淑馨
+    </h1>
+    <p lang="eng" class="smalltext"> Click me for color change! </p>
+    
+    <p lang="ch" class="smalltext"> 点击我，进入灯光/黑暗模式。 </p>
+    
     <label class="switch">
   <input type="checkbox" onclick="checkbox()" checked>
+  <span class="slider round"></span></label>
+    <p lang="eng" class="smalltext"> Change to Chinese: </p>
+      <p lang="ch" class="smalltext"> 换回中文/英文。</p>
+</label>
+        <label class="switch">
+  <input type="checkbox" onclick="chinese()" unchecked>
   <span class="slider round"></span>
 </label>
  </div>
  
+
+
 
 
 
