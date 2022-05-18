@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>TX</title>
+  <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,26 +17,42 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
-
   
 </head>
 
 <body>
   <div>   
-  <a class="topbuttons" href="#tx">Tina Xing </a>
-  <a class="topbuttons" href="#about">About</a> 
-  <a class="topbuttons" href="#resources" > Resources</a>
-  <a class="topbuttons" href="photos.html" > Photos</a></div>
+  <a lang = "eng" class="topbuttons" href="#tx">Tina Xing </a>
+  <a lang = "eng" class="topbuttons" href="#about">About</a> 
+  <a lang = "eng" class="topbuttons" href="#resources" > Resources</a>
+  <a lang = "eng" class="topbuttons" href="photos.html" > Photos</a></div>
+
+    <a lang = "ch" class="topbuttons" href="#tx">Tina Xing </a>
+  <a lang = "ch" class="topbuttons" href="#about">介绍</a> 
+  <a lang = "ch" class="topbuttons" href="#resources" > 资料</a>
+  <a lang = "ch" class="topbuttons" href="photos.html" > 相片</a></div>
 <!-- <a class="topbuttons" href="contact.html" > Contact</a> -->
 </div>
   <div class="col1">
       <a href="index.html"><img class= "pfp" src= "pfp.png" height=70% width=70% > </a>
-    <h1 class="name">
+    <h1 lang="eng" class="name">
       Tina Xing
     </h1>
-    <p class="smalltext"> Click me for color change! </p>
+    <h1 lang="ch" class="name">
+      邢淑馨
+    </h1>
+    <p lang="eng" class="smalltext"> Click me for color change! </p>
+    
+    <p lang="ch" class="smalltext"> 点击我，进入灯光/黑暗模式。 </p>
+    
     <label class="switch">
   <input type="checkbox" onclick="checkbox()" checked>
+  <span class="slider round"></span></label>
+    <p lang="eng" class="smalltext"> Change to Chinese: </p>
+      <p lang="ch" class="smalltext"> 换回中文/英文。</p>
+</label>
+        <label class="switch">
+  <input type="checkbox" onclick="chinese()" unchecked>
   <span class="slider round"></span>
 </label>
  </div>
@@ -44,39 +61,65 @@
 
 
   <div class="col2 light-col2">
-    <h2 class="titles" id="about">
+    <h2 lang = "eng" class="titles" id="about">
       About
     </h2>
-    <p class="smalltext"> Hello! My name is Tina, and I am currently in Junior High. I speak English and Chinese natively, and I am looking forward to learning new (foreign) languages. This site was made originally on repl.it by html and css. I originally made a bunch of "test sites" solely to learn new HTML skills, and this site is one of them! idk what to write here. </p>
 
-            <h2 class="titles" id="resources">
+    <h2 lang = "ch" class="titles" id="about">
+      介绍
+    </h2> 
+    <p lang = "eng" class="smalltext"> Hello! My name is Tina, and I am currently in Junior High. I speak English and Chinese natively, and I am looking forward to learning new (foreign) languages. This site was made originally on repl.it by html and css. I originally made a bunch of "test sites" solely to learn new HTML skills, and this site is one of them! idk what to write here. </p>
+        <p lang = "ch" class="smalltext"> 你好！我是tina，我现在上初中。我会说汉语和英语，我也在学校学法语。这个网站原来是用来给我学html用的。</p>
+
+            <h2 lang = "eng" class="titles" id="resources">
       Resources
     </h2> 
-    <p class="smalltext">
-      Some resources I use are listed here.
-    </p>
-                <h2 class="titles" id="strengths">
+    <h2 lang = "ch" class="titles" id="resources">
+      资料
+    </h2> 
+    <p lang = "eng" class="smalltext">
+      Some resources I use are listed here. </p>     <p lang = "ch" class="smalltext"> 这是我用的一些资源和网站。</p> <i class="fa fa-link" aria-hidden="true"></i> <a class="resourcelinks" href="https://www.geeksforgeeks.org/">GeeksforGeeks </a>
+    
+
+                <h2 lang = "eng" class="titles" id="strengths">
       Strengths 
     </h2> 
-    <p class="smalltext">
+         <h2 lang = "ch" class="titles" id="strengths">
+      长项 
+    </h2> 
+    <p lang = "eng" class="smalltext">
       My strengths are here. 
     </p>
-                <h2 class="titles" id="goals">
+    <p lang = "ch" class="smalltext">
+      这是我的长项：
+    </p>
+                <h2 lang = "eng" class="titles" id="goals">
       Goals 
     </h2> 
-    <p class="smalltext">
-      My goals are here. 
+
+    <h2 lang = "ch" class="titles" id="goals">
+      目标 
+    </h2> 
+    <p lang = "ch" class="smalltext">
+      这是我的目标。
     </p>
     
-    <h2 class="titles" id="achieve">
+    <h2 lang = "eng" class="titles" id="achieve">
       Achievements
     </h2>
     
+     <h2 lang = "ch" class="titles" id="achieve">
+      成绩
+    </h2>
+    
 
-    <p class="smalltext">
+    <p lang = "eng" class="smalltext">
       None yet, :sadge.
     </p>
 
+    <p lang = "ch" class="smalltext">
+      还没有呢。。。
+    </p>
 
 
   </div>
