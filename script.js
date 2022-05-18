@@ -4,4 +4,11 @@ function checkbox(){
 
 }
 
+$('[lang="ch"]').hide();
+
+function chinese(){
+  $('[lang="ch"]').toggle();
+  $('[lang="eng"]').toggle();
+};
+
 
